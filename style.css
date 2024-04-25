@@ -1,0 +1,134 @@
+nav {
+    background-color: #33333300;
+    overflow: hidden;
+    float: right; 
+  }
+  
+  nav a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: auto; 
+    margin-right: 10px; 
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    overflow: hidden; 
+    font-family: "Lexend";
+  }
+  
+  h1 {
+    display: inline-block; 
+    margin: 0; 
+    font-size: 24px; 
+    font-family: "Lexend";
+  }
+  
+  nav {
+    background-color: #33333300;
+    overflow: hidden;
+    float: right; 
+  }
+  
+  nav a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.1s ease, background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  nav a:hover {
+    color: #ffffff; 
+    background-color: yellow; /* Change the background color to yellow */
+    transform: translateY(-3px) scale(1.1); 
+  }
+  
+  
+  /* Different background colors for each navigation link */
+  nav a:nth-child(1) {
+    background-color:  #272727; /* Example background color for the first link */
+  }
+  
+  nav a:nth-child(2) {
+    background-color: #272727; /* Example background color for the second link */
+  }
+  
+  nav a:nth-child(3) {
+    background-color: #272727; /* Example background color for the third link */
+  }
+  
+  .specified-text {
+    font-size: 70px; 
+    font-weight: bold; 
+    font-family: "Lexend", sans-serif; 
+    color: black; 
+    text-align: left; 
+    margin-left: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    height: 65vh; 
+    position: relative;
+  }
+  
+  .specified-text > :not(:last-child) {
+    margin-bottom: -6.5vh; 
+  }
+  
+  .centered-image {
+    position: absolute; 
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
+    margin-right: 275px;
+  }
+  
+  .centered-image img {
+    width: auto; 
+    max-height: 80vh; 
+  }
+  
+  .purchase-btn {
+    background-color: #272727; 
+    color: white; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    padding: 25px 35px; /* Increase padding for a larger button */
+    border: none; 
+    font-family: "Lexend", sans-serif; 
+    font-size: 25px; /* Increase font size for larger text */
+    margin-bottom: 0px; /* Adjusted margin to move the button up */
+    margin-left: 470px;
+    border-radius: 13px; /* Optional: Add border-radius for rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+    display: inline-block; 
+  }
+  
+  .purchase-btn:hover {
+    background-color: #a644e5; 
+    color: #ffffff;
+    transform: translateY(-3px) scale(1.1);
+  }
+  
+  .purchase-btn::after {
+    margin-left: 5px; 
+    font-size: 20px; 
+    vertical-align: middle; 
+  }
+  
